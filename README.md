@@ -6,7 +6,7 @@ The themes.py script contains Theia's sector and industry list, but used an LLM 
 
 The theia_project_main notebook contains the core of the project.
 
-Things that could have been added to improve the project:
+Things that could have been added to improve the project but were not possible for lack of time:
 -  Comprehensive unit tests
 - Error catching and strategies to account for missing data
 - Further cleaning of financial tables, possibility to join tables from different companies in order to perform (comparative) data analysis
