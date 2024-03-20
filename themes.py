@@ -1,5 +1,7 @@
 import pandas as pd
 
+
+#dictionary of sectors, themes, industries
 data = {
     'Industrial & Business': {
         'Materials & Manufacturing': {
@@ -359,9 +361,6 @@ for level1_key, level1_value in data.items():
 
 # Create a pandas DataFrame from the data list
 df = pd.DataFrame(data2, columns=['Level 1', 'Level 2', 'Level 3', 'Level 4'])
-
-# Print the resulting DataFrame
-# print(df.head())
 
 df.columns=['Sector', 'Industry', 'Sub-Industry', 'Theme']
 
